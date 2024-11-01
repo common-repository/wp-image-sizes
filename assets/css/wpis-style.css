@@ -1,0 +1,129 @@
+.text-red{
+	color: #e80000 !important;
+}
+.text-green{
+	color: #2b9d0b !important;
+}
+.fw-5{
+	font-weight: 500;
+}
+.fw-6{
+	font-weight: 600;
+}
+.fw-7{
+	font-weight: 700;
+}
+.fw-8{
+	font-weight: 800;
+}
+.fw-9{
+	font-weight: 900;
+}
+.wpis-grid-columns-75-25{
+	display: grid;
+	grid-template-columns: 7.5fr 2.5fr;
+	grid-column-gap: 15px;
+}
+.wpis-features-card {
+    border: 1px solid #f1f1f1;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.wpis-features-card > h4{
+	margin: -10px -10px 0px -10px;
+    margin-bottom: 0px;
+	padding: 5px 10px;
+	background: #f1f1f1;
+	margin-bottom: 10px;	
+}
+.pro-features-section .buy-pro{
+	display: block;
+	font-size: 20px;
+	font-weight: 500;
+	text-align: center;	
+}
+.wpis-grid-columns-3{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 15px;	
+}
+.wpis-fieldset{
+	border: 1px solid #ddd;
+	padding: 10px 15px;
+	margin-bottom: 10px;	
+}
+.wpis-fieldset > legend{
+	font-weight: 600;
+	padding: 0px 10px;
+	font-size: 15px;	
+}
+.wpis-wrap p.description{
+	font-weight: normal;	
+}
+.wpis-settings-tab .form-table th{
+	width: 325px;
+}
+
+.wpis-tab-wrapper .nav-tab:first-child{
+	margin-left: 0px;	
+}
+.wpis-tab-wrapper .nav-tab-active{
+	background: #fefefe;	
+}
+.wpis-tab-content {
+    padding: 15px;
+    background: #fefefe;
+    border: 1px solid #ccc;
+    margin-top: -1px;
+}
+.wpis-tab-content .tab-pane{
+	display: none;	
+}
+.wpis-tab-content .tab-pane.active{
+	display: block;	
+}
+.wpis-tab-content .section-header{
+	margin-bottom: 20px;	
+}
+.wpis-media-uploader{
+	max-width: 700px;
+	margin: 15px auto;
+	border: 1px solid #ddd;
+	padding: 15px;
+	position: relative;
+	z-index: 9999;
+}
+.wpis-media-uploader > .spinner{
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	left: 0px;
+	margin: -10px auto 0px auto;
+}
+.wpis-image-sizes > h3{
+	margin-bottom: 20px;
+}
+.wpis-image-size-boxes{
+	display: flex;	
+	flex-wrap: wrap;
+	margin-top: 15px;
+}
+.wpis-image-size-boxes > .image-size-checkbox{
+	flex-basis: 50%;
+	text-align: left;
+	margin-bottom: 10px;	
+}
+
+.uploader-inline-content{
+	display: flex;
+	flex-flow: column-reverse;
+	flex-wrap: wrap;
+	justify-content: center;
+	top: 3rem;
+}
+
+@media screen and (max-width: 1200px){
+	.wpis-grid-columns-3{
+		grid-template-columns: 1fr 1fr;
+	}
+}
